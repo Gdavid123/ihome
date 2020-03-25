@@ -98,7 +98,7 @@ DATABASES = {
         'HOST': '127.0.0.1',  # 数据库主机
         'PORT': 3306,  # 数据库端口
         'USER': 'ihome',  # 数据库用户名
-        'PASSWORD': '123456',  # 数据库用户密码
+        'PASSWORD': '1234',  # 数据库用户密码
         'NAME': 'ihome'  # 数据库名字
     },
 
@@ -225,7 +225,7 @@ AUTHENTICATION_BACKENDS = ['user.utils.UsernameMobileAuthBackend']
 # FDFS客户端的配置文件.
 FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
 # 访问FDFS中存储的文件时,地址有可能变化, 所以我们把地址放在这里记录:
-FDFS_URL = 'http://192.168.228.228:8888/'
+FDFS_URL = 'http://116.62.27.184:8888/'
 
 # 指定django系统使用的文件存储类:
 DEFAULT_FILE_STORAGE = 'ihome.utils.fastdfs.fastdfs_storage.FastDFSStorage'

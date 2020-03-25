@@ -6868,3 +6868,2076 @@ INFO 2019-09-05 10:13:03,458 basehttp 124 "GET /api/v1.0/houses/search/?aid=1&sd
 INFO 2019-09-05 10:13:05,965 basehttp 124 "GET /api/v1.0/houses/search/?aid=1&sd=2019-09-24&ed=2019-09-30&sk=price-inc&p=1 HTTP/1.1" 200 2019
 INFO 2019-09-05 10:13:07,928 basehttp 124 "GET /api/v1.0/houses/search/?aid=1&sd=2019-09-24&ed=2019-09-30&sk=price-des&p=1 HTTP/1.1" 200 2019
 INFO 2019-09-05 10:13:13,997 basehttp 124 "GET /api/v1.0/houses/search/?aid=1&sd=2019-09-24&ed=2019-09-30&sk=booking&p=1 HTTP/1.1" 200 2019
+INFO 2020-02-29 10:32:29,271 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-02-29 11:13:45,258 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-02-29 11:13:45,346 basehttp 124 "GET /static/html/index.html HTTP/1.1" 200 6577
+INFO 2020-02-29 11:13:45,437 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 435
+INFO 2020-02-29 11:13:45,439 basehttp 124 "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 15779
+INFO 2020-02-29 11:13:45,454 basehttp 124 "GET /static/css/ihome/main.css HTTP/1.1" 200 224
+INFO 2020-02-29 11:13:45,466 basehttp 124 "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 29062
+INFO 2020-02-29 11:13:45,473 basehttp 124 "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 17216
+INFO 2020-02-29 11:13:45,476 basehttp 124 "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2020-02-29 11:13:45,487 basehttp 124 "GET /static/css/ihome/index.css HTTP/1.1" 200 1909
+INFO 2020-02-29 11:13:45,490 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-02-29 11:13:45,515 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-02-29 11:13:45,550 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-02-29 11:13:45,550 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-02-29 11:13:45,551 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-02-29 11:13:45,639 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-02-29 11:13:46,414 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-02-29 11:13:46,421 basehttp 124 "GET /static/images/logo@128x59.png HTTP/1.1" 200 6068
+INFO 2020-02-29 11:13:49,736 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:13:49,747 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:13:49,752 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:13:49,796 basehttp 124 "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+WARNING 2020-02-29 11:13:49,899 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:13:49,900 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:14:03,436 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:14:03,504 basehttp 124 "GET /static/html/login.html HTTP/1.1" 200 2123
+INFO 2020-02-29 11:14:03,554 basehttp 124 "GET /static/css/ihome/login.css HTTP/1.1" 200 966
+INFO 2020-02-29 11:14:03,564 basehttp 124 "GET /static/js/ihome/login.js HTTP/1.1" 200 1498
+INFO 2020-02-29 11:14:05,908 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:14:05,926 basehttp 124 "GET /static/html/register.html HTTP/1.1" 200 3892
+INFO 2020-02-29 11:14:05,979 basehttp 124 "GET /static/css/ihome/register.css HTTP/1.1" 200 1315
+INFO 2020-02-29 11:14:05,981 basehttp 124 "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 5757
+INFO 2020-02-29 11:14:06,287 basehttp 124 "GET /api/v1.0/imagecode?cur=342e9f3f-81f5-456f-8c4c-db600cd6cac8&pre= HTTP/1.1" 301 0
+ERROR 2020-02-29 11:14:06,397 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:14:06,500 basehttp 124 "GET /api/v1.0/imagecode/?cur=342e9f3f-81f5-456f-8c4c-db600cd6cac8&pre= HTTP/1.1" 500 113907
+INFO 2020-02-29 11:14:07,744 basehttp 124 "GET /api/v1.0/imagecode?cur=a7e557d7-fc61-42dc-b32c-593543968da9&pre=342e9f3f-81f5-456f-8c4c-db600cd6cac8 HTTP/1.1" 301 0
+ERROR 2020-02-29 11:14:07,767 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:14:07,822 basehttp 124 "GET /api/v1.0/imagecode/?cur=a7e557d7-fc61-42dc-b32c-593543968da9&pre=342e9f3f-81f5-456f-8c4c-db600cd6cac8 HTTP/1.1" 500 114344
+INFO 2020-02-29 11:14:08,326 basehttp 124 "GET /api/v1.0/imagecode?cur=da2bc32e-d94a-44a9-b7db-a9009d24817e&pre=a7e557d7-fc61-42dc-b32c-593543968da9 HTTP/1.1" 301 0
+ERROR 2020-02-29 11:14:08,373 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:14:08,455 basehttp 124 "GET /api/v1.0/imagecode/?cur=da2bc32e-d94a-44a9-b7db-a9009d24817e&pre=a7e557d7-fc61-42dc-b32c-593543968da9 HTTP/1.1" 500 114329
+INFO 2020-02-29 11:14:08,833 basehttp 124 "GET /api/v1.0/imagecode?cur=e6137d4d-c909-4691-9bad-c41b2bfdd22d&pre=da2bc32e-d94a-44a9-b7db-a9009d24817e HTTP/1.1" 301 0
+ERROR 2020-02-29 11:14:08,874 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:14:08,954 basehttp 124 "GET /api/v1.0/imagecode/?cur=e6137d4d-c909-4691-9bad-c41b2bfdd22d&pre=da2bc32e-d94a-44a9-b7db-a9009d24817e HTTP/1.1" 500 114317
+INFO 2020-02-29 11:14:10,523 basehttp 124 "GET /api/v1.0/imagecode?cur=fe383484-0c58-4d40-84d9-0f66de592028&pre=e6137d4d-c909-4691-9bad-c41b2bfdd22d HTTP/1.1" 301 0
+ERROR 2020-02-29 11:14:10,566 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:14:10,618 basehttp 124 "GET /api/v1.0/imagecode/?cur=fe383484-0c58-4d40-84d9-0f66de592028&pre=e6137d4d-c909-4691-9bad-c41b2bfdd22d HTTP/1.1" 500 114320
+INFO 2020-02-29 11:14:12,767 basehttp 124 "GET /api/v1.0/imagecode?cur=78d8869a-3410-44e3-8594-39d33e1d4d13&pre=fe383484-0c58-4d40-84d9-0f66de592028 HTTP/1.1" 301 0
+ERROR 2020-02-29 11:14:12,803 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:14:12,859 basehttp 124 "GET /api/v1.0/imagecode/?cur=78d8869a-3410-44e3-8594-39d33e1d4d13&pre=fe383484-0c58-4d40-84d9-0f66de592028 HTTP/1.1" 500 114351
+INFO 2020-02-29 11:14:18,596 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:14:31,513 basehttp 124 "GET /api/v1.0/imagecode?cur=e8ed6623-be85-405d-9087-0d2368eaee63&pre= HTTP/1.1" 301 0
+ERROR 2020-02-29 11:14:31,554 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:14:31,607 basehttp 124 "GET /api/v1.0/imagecode/?cur=e8ed6623-be85-405d-9087-0d2368eaee63&pre= HTTP/1.1" 500 113950
+INFO 2020-02-29 11:15:04,775 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-02-29 11:15:04,842 basehttp 124 "GET /static/html/index.html HTTP/1.1" 200 6577
+INFO 2020-02-29 11:15:04,918 basehttp 124 "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 15779
+INFO 2020-02-29 11:15:04,920 basehttp 124 "GET /static/css/ihome/main.css HTTP/1.1" 200 224
+INFO 2020-02-29 11:15:04,923 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-02-29 11:15:04,924 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-02-29 11:15:04,925 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-02-29 11:15:04,926 basehttp 124 "GET /static/css/ihome/index.css HTTP/1.1" 200 1909
+INFO 2020-02-29 11:15:04,928 basehttp 124 "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 17216
+INFO 2020-02-29 11:15:04,929 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 435
+INFO 2020-02-29 11:15:04,930 basehttp 124 "GET /static/images/logo@128x59.png HTTP/1.1" 200 6068
+INFO 2020-02-29 11:15:04,931 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-02-29 11:15:04,933 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-02-29 11:15:04,934 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-02-29 11:15:04,935 basehttp 124 "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 29062
+INFO 2020-02-29 11:15:05,465 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-02-29 11:15:06,958 basehttp 124 "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2020-02-29 11:15:07,578 basehttp 124 "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+INFO 2020-02-29 11:15:07,610 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:15:07,624 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:15:07,672 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+WARNING 2020-02-29 11:15:08,221 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:15:08,222 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:15:59,374 basehttp 124 "GET /?nsukey=qtKa3RTlQ4Hom8PGMUFcL4CMMG%2F06D7bFBzkpYNUMg9%2B54Xgc3lzhevuEzYmZ3ePgKAE4WgXTZLzFynMDo5Ip%2BX7YbOs87QzBM%2BnD2%2FxcbaDQZHd5PHgwpmv9qt1HwgNWqXjwUffW0SejBmUv13RQU%2FrOK3sC%2FqF7g1vEuti53amAwfX8GNsuWZe5UCrrFzQ01UbjLVw27xKVQebZTWuMw%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:15:59,428 basehttp 124 "GET /static/html/index.html HTTP/1.1" 200 6577
+INFO 2020-02-29 11:15:59,552 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 435
+INFO 2020-02-29 11:15:59,554 basehttp 124 "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 29062
+INFO 2020-02-29 11:15:59,555 basehttp 124 "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 17216
+INFO 2020-02-29 11:15:59,556 basehttp 124 "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 15779
+INFO 2020-02-29 11:15:59,595 basehttp 124 "GET /static/css/ihome/main.css HTTP/1.1" 200 224
+INFO 2020-02-29 11:15:59,624 basehttp 124 "GET /static/css/ihome/index.css HTTP/1.1" 200 1909
+INFO 2020-02-29 11:15:59,649 basehttp 124 "GET /static/images/logo@128x59.png HTTP/1.1" 200 6068
+INFO 2020-02-29 11:15:59,651 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-02-29 11:15:59,660 basehttp 124 "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2020-02-29 11:15:59,697 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-02-29 11:15:59,699 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-02-29 11:15:59,732 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-02-29 11:15:59,855 basehttp 124 "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+WARNING 2020-02-29 11:15:59,932 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:15:59,933 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:16:00,963 basehttp 124 "GET /static/html/index.html?nsukey=RrtMAOfH8DX1MXLsfrE5dZX%2BR5WIqZsomVa2Z8uN22VFPBX91fxqTzUlSV9%2Bx27Ec5pWQzfscBSnzFalQUhXs9TDZoD7bfl4ZgUJjm4JEUe6hWq872N2wy%2BJvGBHDpZodk1tUOblZdei37xzMp8zRfzWLcZ48Gi8SVlHzd50fb6OgzCXlNKGc4XqDyD%2FBmKMOuIuWtgJswXCu343IYf9KQ%3D%3D HTTP/1.1" 200 6577
+INFO 2020-02-29 11:16:01,047 basehttp 124 "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+INFO 2020-02-29 11:16:01,051 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-02-29 11:16:01,054 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-02-29 11:16:01,063 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-02-29 11:16:01,576 basehttp 124 "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2020-02-29 11:16:02,080 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-02-29 11:16:02,082 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-02-29 11:16:02,414 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-02-29 11:16:02,642 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-02-29 11:16:05,037 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:16:05,043 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:16:05,059 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:16:44,783 basehttp 124 "GET /?nsukey=JRPjBWe7z%2BOb9tgwMQXFtX2JIcuzLU%2BMxgPZTqiIXULX1D2rpX9IQiiBgmR5AN8prbqrA%2BAhGswEv5OJrKm%2BqUrXa7WJh7jaCmPq0mONee4kP2VU1WbsCsOPw4s7kFschOASvD90N39KMkZeAiTooaT%2FgI9VKZmfbv1vuNvZARQTAkPTMrlpw%2BxD4Ew3UENgr7kjnTTjYDB1juoT%2FmdNkg%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:16:45,012 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:16:45,017 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:16:45,054 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+WARNING 2020-02-29 11:16:45,072 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:16:45,072 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:16:46,138 basehttp 124 "GET /static/html/index.html?nsukey=D9L3kkWRCkzmqrVvnEw1EQb%2BYvltTWpPxP172xc2W%2Bftu6iK79pUM1oqNkruhWI1agXTvyopx%2FujrdPxrSmoDYuIrtRZv6Npu5a10qIGdt82DXkKo4yAJVmKVzp5LpsCmAi6L1xf0D8APlIa9LJdBNB6N8HtbrseAZ57iMCZwXE%3D HTTP/1.1" 200 6577
+INFO 2020-02-29 11:16:46,259 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:16:46,275 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:16:46,294 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:16:49,450 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:16:49,555 basehttp 124 "GET /static/html/login.html HTTP/1.1" 200 2123
+INFO 2020-02-29 11:16:49,679 basehttp 124 "GET /static/css/ihome/login.css HTTP/1.1" 200 966
+INFO 2020-02-29 11:16:49,693 basehttp 124 "GET /static/js/ihome/login.js HTTP/1.1" 200 1498
+INFO 2020-02-29 11:16:51,129 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:16:51,244 basehttp 124 "GET /static/html/register.html HTTP/1.1" 200 3892
+INFO 2020-02-29 11:16:51,336 basehttp 124 "GET /static/css/ihome/register.css HTTP/1.1" 200 1315
+INFO 2020-02-29 11:16:51,364 basehttp 124 "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 5757
+INFO 2020-02-29 11:16:51,601 basehttp 124 "GET /api/v1.0/imagecode?cur=cdcfa205-6e61-403f-bc4f-b268c453a2b9&pre= HTTP/1.1" 301 0
+ERROR 2020-02-29 11:16:51,648 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:16:51,750 basehttp 124 "GET /api/v1.0/imagecode/?cur=cdcfa205-6e61-403f-bc4f-b268c453a2b9&pre= HTTP/1.1" 500 114157
+INFO 2020-02-29 11:17:03,333 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-02-29 11:17:04,265 basehttp 124 "GET /?nsukey=qtKa3RTlQ4Hom8PGMUFcL4CMMG%2F06D7bFBzkpYNUMg9%2B54Xgc3lzhevuEzYmZ3ePgKAE4WgXTZLzFynMDo5Ip%2BX7YbOs87QzBM%2BnD2%2FxcbaDQZHd5PHgwpmv9qt1HwgNWqXjwUffW0SejBmUv13RQU%2FrOK3sC%2FqF7g1vEuti53amAwfX8GNsuWZe5UCrrFzQ01UbjLVw27xKVQebZTWuMw%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:21:24,497 basehttp 124 "GET /?nsukey=F1c0MuNZGlDBfdHfPLKyWKN5NrvDoo4ZTQxuJ5Haz1z8kbNbskC%2FVCaCR6%2B%2FhZ4j1OUUH7%2FUsGRk2Am6o1Jb5Bm8dF8fvd7y3GmzLaUs78jZnSrE%2BIp1RJKWltEL6Y%2B%2FnIoVFppBJQDQS1bNeqpzc7rA6C45p3js4yeS3ddEFPZ8B%2FT8Q9zHCJq1R59ccKZkuykDlAzo7aBu5v7SBIGeJg%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:21:24,824 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:21:24,860 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:21:24,867 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+WARNING 2020-02-29 11:21:24,925 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:21:24,926 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:21:26,079 basehttp 124 "GET /static/html/index.html?nsukey=3dy%2F1CAe8ulJfOv7%2Bgb5LtEovDIh6PzrHiN3u2L%2Bw2F7GpMnYsfvYNp9QY6Rxzqv0x6aUsY0RHa4nAxbblDsATrED9I8HqiK%2B3Pk658YIynMIpoyhv5EtEbQyDDEa6y0PJR%2Frywuo5sbpGdah31iNVQi6QeWHsTOfCzxg23s3TOhyMV1trnmp7WWm52x3tSp HTTP/1.1" 200 6577
+INFO 2020-02-29 11:21:26,364 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:21:26,389 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:21:26,412 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+WARNING 2020-02-29 11:21:26,448 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:21:26,449 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:21:37,478 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:21:40,235 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:21:40,438 basehttp 124 "GET /api/v1.0/imagecode?cur=569e1a1f-91ac-445c-9a7a-f5b6d3e3626f&pre= HTTP/1.1" 301 0
+ERROR 2020-02-29 11:21:40,601 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:21:40,747 basehttp 124 "GET /api/v1.0/imagecode/?cur=569e1a1f-91ac-445c-9a7a-f5b6d3e3626f&pre= HTTP/1.1" 500 114136
+INFO 2020-02-29 11:22:29,643 basehttp 124 "GET /static/html/index.html?nsukey=3dy%2F1CAe8ulJfOv7%2Bgb5LtEovDIh6PzrHiN3u2L%2Bw2F7GpMnYsfvYNp9QY6Rxzqv0x6aUsY0RHa4nAxbblDsATrED9I8HqiK%2B3Pk658YIynMIpoyhv5EtEbQyDDEa6y0PJR%2Frywuo5sbpGdah31iNVQi6QeWHsTOfCzxg23s3TOhyMV1trnmp7WWm52x3tSp HTTP/1.1" 200 6577
+INFO 2020-02-29 11:22:31,530 basehttp 124 "GET /?nsukey=F1c0MuNZGlDBfdHfPLKyWKN5NrvDoo4ZTQxuJ5Haz1z8kbNbskC%2FVCaCR6%2B%2FhZ4j1OUUH7%2FUsGRk2Am6o1Jb5Bm8dF8fvd7y3GmzLaUs78jZnSrE%2BIp1RJKWltEL6Y%2B%2FnIoVFppBJQDQS1bNeqpzc7rA6C45p3js4yeS3ddEFPZ8B%2FT8Q9zHCJq1R59ccKZkuykDlAzo7aBu5v7SBIGeJg%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:22:46,591 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-02-29 11:23:37,809 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-02-29 11:24:11,234 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-02-29 11:24:57,412 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-02-29 11:25:32,661 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-02-29 11:25:41,884 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-02-29 11:25:50,164 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-02-29 11:26:41,010 basehttp 124 "GET /?nsukey=0lt5VQ6Erhv8MTSs7aID%2Fnn%2F1jiRIuRTCp96qZcVBgJjiXqt7GvJ7iSb3Ot1i2LprcCyAf8nKcd7MpnphZvxmjr0JvkFgMmlte8bEJ%2BxjafkPftr72%2FXjiFdqqMepHvvEL7O6GEIVgr94ysBfYwPCcUOV3TmMX3O9UBN1u0wtGzBlcdlv6tQakNM8rAN0IAtUD5tExSrew8hno1qeG3A%2Fg%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:26:41,265 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:26:41,285 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:26:41,287 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+WARNING 2020-02-29 11:26:41,308 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:26:41,309 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:26:42,530 basehttp 124 "GET /static/html/index.html?nsukey=wXpG%2Bkf5LJ6ipLc%2FpGPR1szjyxihhBeCbpIP294TAWTN0p1QXXSfAT85wGd0denn8%2FOyKWgNjjXacCKIWEOhUQTmWkrwlzHVPQkLtTpjp9lNh7VRiJj19Kpka8aAzEjFoL3V3mwXelaFm5jyjErFu27UsWgG%2Bc06B%2FXhObjUYA%2BbYYXqQ%2F1X3jMDxiogrnWhbWAwPIyiXbvIfXCOgek2Ug%3D%3D HTTP/1.1" 200 6577
+INFO 2020-02-29 11:26:42,747 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:26:42,761 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:26:42,771 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:26:47,769 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:27:37,779 basehttp 124 "GET /?nsukey=X1t9XIWVNPH5Oti91K27weu4PQj2ARO%2By48FPEjyaEwRqZ5TAN2zd3PqncZcaA6eoMgnMYytxt6h1umKnW6s7FFB8zYS4Jkof8iVne8%2BSDvkZfdH5HVJ9sigGleEymdzs2fUpEaUFuyTjTMBElqFLiAvLH89Bh0bg0g77UXG4gPZChCnOhaTdAigoWQE3xP%2FJLIxTITcqUh%2BJ2AbSnJNvw%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:27:38,074 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:27:38,086 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:27:38,107 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+WARNING 2020-02-29 11:27:38,182 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:27:38,183 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:27:39,310 basehttp 124 "GET /static/html/index.html?nsukey=HTA6JacGdkxiBZB5jNzVLI%2FUXRE0UclkwgRrjHpwJhpCZBtgxZFIZRDx1Vtjwxd6UYmi7qdHef6mcDZuArhhmx8MuxPKKCxb%2BHXlt8WcQGIUrU2lk29s4cDqNN2OtK0L0AAiSiSKcfUZrpQZ%2BBRlPKW5DPm4txXRKB6VOvw8uoDVfEkbdZL5UuG2g%2F9QU9xbkIRtOaqnCgGthse%2FgWNZeQ%3D%3D HTTP/1.1" 200 6577
+INFO 2020-02-29 11:27:39,564 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:27:39,601 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:27:39,622 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+WARNING 2020-02-29 11:27:39,648 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:27:39,649 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:27:50,703 basehttp 124 "GET /?nsukey=0lt5VQ6Erhv8MTSs7aID%2Fnn%2F1jiRIuRTCp96qZcVBgJjiXqt7GvJ7iSb3Ot1i2LprcCyAf8nKcd7MpnphZvxmjr0JvkFgMmlte8bEJ%2BxjafkPftr72%2FXjiFdqqMepHvvEL7O6GEIVgr94ysBfYwPCcUOV3TmMX3O9UBN1u0wtGzBlcdlv6tQakNM8rAN0IAtUD5tExSrew8hno1qeG3A%2Fg%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:28:40,719 basehttp 124 "GET /static/html/index.html?nsukey=HTA6JacGdkxiBZB5jNzVLI%2FUXRE0UclkwgRrjHpwJhpCZBtgxZFIZRDx1Vtjwxd6UYmi7qdHef6mcDZuArhhmx8MuxPKKCxb%2BHXlt8WcQGIUrU2lk29s4cDqNN2OtK0L0AAiSiSKcfUZrpQZ%2BBRlPKW5DPm4txXRKB6VOvw8uoDVfEkbdZL5UuG2g%2F9QU9xbkIRtOaqnCgGthse%2FgWNZeQ%3D%3D HTTP/1.1" 200 6577
+INFO 2020-02-29 11:28:43,805 basehttp 124 "GET /?nsukey=X1t9XIWVNPH5Oti91K27weu4PQj2ARO%2By48FPEjyaEwRqZ5TAN2zd3PqncZcaA6eoMgnMYytxt6h1umKnW6s7FFB8zYS4Jkof8iVne8%2BSDvkZfdH5HVJ9sigGleEymdzs2fUpEaUFuyTjTMBElqFLiAvLH89Bh0bg0g77UXG4gPZChCnOhaTdAigoWQE3xP%2FJLIxTITcqUh%2BJ2AbSnJNvw%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:28:45,421 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-02-29 11:28:54,765 basehttp 124 "GET /?nsukey=lWSjX2K9EDk6UqhKEk2rwQ0FAtI%2Bmth26%2FjAkws7kNirBwpV%2B89DvFlOu%2B4cLAdjHzTz08Th0aeaPleN6scb6soDMq%2F4Jfge7KPpO2Sf52YQzlQbF9f%2BpIDWbE%2FZwuihD9xT6Ng1SxdulBGCjwQ%2FOnc0TzVycGJ7MH2MnJc5unCihBS1s1D3xVi%2B8mj0tOPgWjtZYI%2FE%2BWyfqLLOw0jZRw%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:28:55,034 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:28:55,045 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:28:55,046 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+WARNING 2020-02-29 11:28:55,098 base 152 Not Found: /favicon.ico
+WARNING 2020-02-29 11:28:55,098 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-02-29 11:29:00,728 basehttp 124 "GET /static/html/index.html?nsukey=Og3%2FrXPIHfH%2FEW4k9VzkBLvvDYc2YCj16qg3vtW03Sia61SIrs0UHDH2T%2F2qzehKqbJiG9PaqOdVI9X9vrL4XIQnunsGsUSG5Z8C%2FTwkbTd4tseNVKmR4Y7TR7zA6sWyE4sLeJeCcQPPWHOltZ4U9YYJ%2F%2Fis%2FF7FagzPPtpEQ58%3D HTTP/1.1" 200 6577
+INFO 2020-02-29 11:29:00,928 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:29:00,938 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:29:00,941 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:29:12,140 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-02-29 11:29:27,132 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-02-29 11:29:41,095 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-02-29 11:29:50,478 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-02-29 11:29:55,853 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-02-29 11:30:00,362 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-02-29 11:30:02,958 basehttp 124 "GET /static/html/index.html?nsukey=Og3%2FrXPIHfH%2FEW4k9VzkBLvvDYc2YCj16qg3vtW03Sia61SIrs0UHDH2T%2F2qzehKqbJiG9PaqOdVI9X9vrL4XIQnunsGsUSG5Z8C%2FTwkbTd4tseNVKmR4Y7TR7zA6sWyE4sLeJeCcQPPWHOltZ4U9YYJ%2F%2Fis%2FF7FagzPPtpEQ58%3D HTTP/1.1" 200 6577
+INFO 2020-02-29 11:30:07,356 basehttp 124 "GET /?nsukey=lWSjX2K9EDk6UqhKEk2rwQ0FAtI%2Bmth26%2FjAkws7kNirBwpV%2B89DvFlOu%2B4cLAdjHzTz08Th0aeaPleN6scb6soDMq%2F4Jfge7KPpO2Sf52YQzlQbF9f%2BpIDWbE%2FZwuihD9xT6Ng1SxdulBGCjwQ%2FOnc0TzVycGJ7MH2MnJc5unCihBS1s1D3xVi%2B8mj0tOPgWjtZYI%2FE%2BWyfqLLOw0jZRw%3D%3D HTTP/1.1" 302 0
+INFO 2020-02-29 11:30:15,819 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-02-29 11:31:05,631 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-02-29 11:31:32,975 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-02-29 11:32:10,630 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-02-29 11:32:28,006 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-02-29 11:32:43,634 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-02-29 11:32:54,622 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-02-29 11:41:05,134 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-02-29 11:41:05,312 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:41:05,329 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:41:05,345 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:41:11,962 basehttp 124 "GET /search.html?aid=&aname=&sd=&ed= HTTP/1.1" 302 0
+INFO 2020-02-29 11:41:11,986 basehttp 124 "GET /static/html/search.html?aid=&aname=&sd=&ed= HTTP/1.1" 200 4107
+INFO 2020-02-29 11:41:12,036 basehttp 124 "GET /static/css/ihome/search.css HTTP/1.1" 200 2843
+INFO 2020-02-29 11:41:12,046 basehttp 124 "GET /static/js/ihome/search.js HTTP/1.1" 200 7647
+INFO 2020-02-29 11:41:12,108 basehttp 124 "GET /api/v1.0/areas HTTP/1.1" 301 0
+INFO 2020-02-29 11:41:12,130 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+ERROR 2020-02-29 11:41:12,362 exception 135 Internal Server Error: /api/v1.0/houses/search/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 27, in get
+    t_sd = datetime.datetime.strptime(sd,"%Y-%m-%d")
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR 2020-02-29 11:41:12,391 basehttp 124 "GET /api/v1.0/houses/search/?aid=&sd=&ed=&sk=new&p=1 HTTP/1.1" 500 16503
+INFO 2020-02-29 11:41:18,518 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-02-29 11:41:18,579 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-02-29 11:41:18,597 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-02-29 11:41:18,602 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-02-29 11:41:28,510 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-02-29 11:41:28,569 basehttp 124 "GET /api/v1.0/imagecode?cur=0fd6f1f5-b834-4d4a-a324-397ae5d6df40&pre= HTTP/1.1" 301 0
+ERROR 2020-02-29 11:41:28,606 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-02-29 11:41:28,660 basehttp 124 "GET /api/v1.0/imagecode/?cur=0fd6f1f5-b834-4d4a-a324-397ae5d6df40&pre= HTTP/1.1" 500 113919
+WARNING 2020-02-29 11:45:44,877 base 152 Not Found: /http:/123.125.114.144/
+WARNING 2020-02-29 11:45:44,878 basehttp 124 "HEAD http://123.125.114.144/ HTTP/1.1" 404 1667
+INFO 2020-03-25 03:24:23,052 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 03:24:23,156 basehttp 124 "GET /static/html/index.html HTTP/1.1" 200 6577
+INFO 2020-03-25 03:24:23,256 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 435
+INFO 2020-03-25 03:24:23,256 basehttp 124 "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 15779
+INFO 2020-03-25 03:24:23,269 basehttp 124 "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 29062
+INFO 2020-03-25 03:24:23,272 basehttp 124 "GET /static/css/ihome/main.css HTTP/1.1" 200 224
+INFO 2020-03-25 03:24:23,279 basehttp 124 "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 17216
+INFO 2020-03-25 03:24:23,281 basehttp 124 "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2020-03-25 03:24:23,289 basehttp 124 "GET /static/css/ihome/index.css HTTP/1.1" 200 1909
+INFO 2020-03-25 03:24:23,295 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-03-25 03:24:23,347 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-03-25 03:24:23,347 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-03-25 03:24:23,348 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-03-25 03:24:23,593 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-03-25 03:24:23,627 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-03-25 03:24:23,944 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-03-25 03:24:24,244 basehttp 124 "GET /static/images/logo@128x59.png HTTP/1.1" 200 6068
+INFO 2020-03-25 03:24:25,283 basehttp 124 "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+INFO 2020-03-25 03:24:25,976 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 03:24:26,604 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+WARNING 2020-03-25 03:24:26,976 base 152 Not Found: /favicon.ico
+WARNING 2020-03-25 03:24:26,980 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 5341
+INFO 2020-03-25 03:24:27,022 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-03-25 03:24:53,325 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-03-25 03:24:53,373 basehttp 124 "GET /static/html/register.html HTTP/1.1" 200 3892
+INFO 2020-03-25 03:24:53,439 basehttp 124 "GET /static/css/ihome/register.css HTTP/1.1" 200 1315
+INFO 2020-03-25 03:24:53,440 basehttp 124 "GET /static/js/ihome/register.js?v=4 HTTP/1.1" 200 5757
+INFO 2020-03-25 03:24:53,528 basehttp 124 "GET /api/v1.0/imagecode?cur=f64b15a6-7787-40d0-8a8c-3e820a477f15&pre= HTTP/1.1" 301 0
+ERROR 2020-03-25 03:24:53,619 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-03-25 03:24:53,795 basehttp 124 "GET /api/v1.0/imagecode/?cur=f64b15a6-7787-40d0-8a8c-3e820a477f15&pre= HTTP/1.1" 500 113913
+INFO 2020-03-25 03:26:54,563 basehttp 124 "GET /api/v1.0/imagecode?cur=f64b15a6-7787-40d0-8a8c-3e820a477f15&pre= HTTP/1.1" 301 0
+ERROR 2020-03-25 03:26:54,608 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-03-25 03:26:54,664 basehttp 124 "GET /api/v1.0/imagecode/?cur=f64b15a6-7787-40d0-8a8c-3e820a477f15&pre= HTTP/1.1" 500 114197
+INFO 2020-03-25 03:26:59,572 basehttp 124 "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 542194
+INFO 2020-03-25 03:26:59,733 basehttp 124 "GET /static/html/register.html HTTP/1.1" 304 0
+INFO 2020-03-25 03:27:00,149 basehttp 124 "GET /api/v1.0/imagecode?cur=a3a37609-7512-4a13-8248-b24f305fd4a7&pre= HTTP/1.1" 301 0
+ERROR 2020-03-25 03:27:00,189 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-03-25 03:27:00,246 basehttp 124 "GET /api/v1.0/imagecode/?cur=a3a37609-7512-4a13-8248-b24f305fd4a7&pre= HTTP/1.1" 500 113921
+ERROR 2020-03-25 03:27:00,282 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-03-25 03:27:00,340 basehttp 124 "GET /api/v1.0/imagecode/?cur=a3a37609-7512-4a13-8248-b24f305fd4a7&pre= HTTP/1.1" 500 113734
+ERROR 2020-03-25 03:27:00,381 exception 135 Internal Server Error: /api/v1.0/imagecode/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 552, in connect
+    sock = self._connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 609, in _connect
+    raise err
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 597, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/user/views.py", line 107, in get
+    redis_conn.setex('img_%s' % cur, 300, text)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 1787, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/client.py", line 875, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 1185, in get_connection
+    connection.connect()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/redis/connection.py", line 557, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2020-03-25 03:27:00,438 basehttp 124 "GET /api/v1.0/imagecode/?cur=a3a37609-7512-4a13-8248-b24f305fd4a7&pre= HTTP/1.1" 500 113751
+INFO 2020-03-25 04:09:13,035 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:09:13,055 basehttp 124 "GET /static/html/register.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:09:13,230 basehttp 124 "GET /api/v1.0/imagecode?cur=e81962a7-2364-4044-8d85-c17845497f2d&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 04:09:13,271 basehttp 124 "GET /api/v1.0/imagecode/?cur=e81962a7-2364-4044-8d85-c17845497f2d&pre= HTTP/1.1" 200 3487
+INFO 2020-03-25 04:09:23,246 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:09:23,527 basehttp 124 "GET /api/v1.0/imagecode?cur=d1d4bbcd-d955-4a3b-81f1-cdcedd81859b&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 04:09:23,562 basehttp 124 "GET /api/v1.0/imagecode/?cur=d1d4bbcd-d955-4a3b-81f1-cdcedd81859b&pre= HTTP/1.1" 200 3534
+INFO 2020-03-25 04:09:29,370 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:09:29,610 basehttp 124 "GET /api/v1.0/imagecode?cur=cde7ea7e-dc7e-46d0-a572-52f6fe885847&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 04:09:29,644 basehttp 124 "GET /api/v1.0/imagecode/?cur=cde7ea7e-dc7e-46d0-a572-52f6fe885847&pre= HTTP/1.1" 200 3164
+INFO 2020-03-25 04:11:19,557 views 158 813986
+INFO 2020-03-25 04:11:19,558 basehttp 124 "POST /api/v1.0/smscode/ HTTP/1.1" 200 63
+INFO 2020-03-25 04:11:21,205 basehttp 124 "GET /api/v1.0/imagecode?cur=13a4663d-bfc7-4766-ac6d-1cac2748532b&pre=cde7ea7e-dc7e-46d0-a572-52f6fe885847 HTTP/1.1" 301 0
+INFO 2020-03-25 04:11:21,267 basehttp 124 "GET /api/v1.0/imagecode/?cur=13a4663d-bfc7-4766-ac6d-1cac2748532b&pre=cde7ea7e-dc7e-46d0-a572-52f6fe885847 HTTP/1.1" 200 3488
+INFO 2020-03-25 04:11:43,946 basehttp 124 "POST /api/v1.0/user/register/ HTTP/1.1" 200 52
+INFO 2020-03-25 04:11:43,980 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:11:44,067 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:11:44,074 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-03-25 04:11:44,079 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-03-25 04:11:55,503 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:11:55,529 basehttp 124 "GET /static/html/my.html HTTP/1.1" 200 3276
+INFO 2020-03-25 04:11:55,579 basehttp 124 "GET /static/css/ihome/my.css HTTP/1.1" 200 1536
+INFO 2020-03-25 04:11:55,579 basehttp 124 "GET /static/js/ihome/my.js HTTP/1.1" 200 976
+INFO 2020-03-25 04:11:55,885 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:11:59,947 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:12:00,191 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 200 3389
+INFO 2020-03-25 04:12:00,242 basehttp 124 "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 1551
+INFO 2020-03-25 04:12:00,245 basehttp 124 "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 799
+INFO 2020-03-25 04:12:00,549 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 79
+INFO 2020-03-25 04:12:02,727 basehttp 124 "GET /auth.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:12:02,753 basehttp 124 "GET /static/html/auth.html HTTP/1.1" 200 3033
+INFO 2020-03-25 04:12:02,834 basehttp 124 "GET /static/css/ihome/profile.css HTTP/1.1" 200 2034
+INFO 2020-03-25 04:12:02,839 basehttp 124 "GET /static/js/jquery.form.min.js HTTP/1.1" 200 15248
+INFO 2020-03-25 04:12:02,840 basehttp 124 "GET /static/js/ihome/auth.js HTTP/1.1" 200 2413
+INFO 2020-03-25 04:12:02,909 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 79
+INFO 2020-03-25 04:12:12,822 basehttp 124 "POST /api/v1.0/user/auth/ HTTP/1.1" 200 30
+INFO 2020-03-25 04:12:14,857 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:12:15,144 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:12:16,738 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:12:17,017 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:12:17,327 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 04:12:18,718 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:12:18,741 basehttp 124 "GET /static/html/newhouse.html HTTP/1.1" 200 15809
+INFO 2020-03-25 04:12:18,790 basehttp 124 "GET /static/css/ihome/newhouse.css HTTP/1.1" 200 2012
+INFO 2020-03-25 04:12:18,796 basehttp 124 "GET /static/js/ihome/newhouse.js?v=3 HTTP/1.1" 200 3108
+INFO 2020-03-25 04:12:18,886 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 42
+INFO 2020-03-25 04:24:15,771 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:15,860 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:24:15,906 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 04:24:17,474 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:17,581 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:24:18,159 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:18,227 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:24:18,236 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-03-25 04:24:18,240 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:24:30,695 basehttp 124 "GET /search.html?aid=9&aname=%E5%98%89%E5%AE%9A%E5%8C%BA&sd=2020-03-26&ed=2020-03-29 HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:30,717 basehttp 124 "GET /static/html/search.html?aid=9&aname=%E5%98%89%E5%AE%9A%E5%8C%BA&sd=2020-03-26&ed=2020-03-29 HTTP/1.1" 200 4107
+INFO 2020-03-25 04:24:30,775 basehttp 124 "GET /static/css/ihome/search.css HTTP/1.1" 200 2843
+INFO 2020-03-25 04:24:30,775 basehttp 124 "GET /static/js/ihome/search.js HTTP/1.1" 200 7647
+INFO 2020-03-25 04:24:30,837 basehttp 124 "GET /api/v1.0/areas HTTP/1.1" 301 0
+INFO 2020-03-25 04:24:30,888 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:24:31,004 basehttp 124 "GET /api/v1.0/houses/search/?aid=9&sd=2020-03-26&ed=2020-03-29&sk=new&p=1 HTTP/1.1" 200 91
+INFO 2020-03-25 04:24:34,077 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:34,148 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:24:34,154 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-03-25 04:24:34,169 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:24:35,160 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:35,244 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:24:36,176 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:36,200 basehttp 124 "GET /static/html/orders.html HTTP/1.1" 200 5425
+INFO 2020-03-25 04:24:36,258 basehttp 124 "GET /static/css/ihome/orders.css HTTP/1.1" 200 1600
+INFO 2020-03-25 04:24:36,261 basehttp 124 "GET /static/js/ihome/orders.js HTTP/1.1" 200 2804
+INFO 2020-03-25 04:24:36,310 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 04:24:37,642 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:37,790 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:24:38,682 basehttp 124 "GET /auth.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:38,750 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:24:40,403 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:40,463 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:24:41,272 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:41,349 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:24:41,436 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 04:24:42,801 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:24:43,014 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:25:12,644 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+ERROR 2020-03-25 04:26:35,404 basehttp 124 "POST /api/v1.0/houses/1/images/ HTTP/1.1" 500 59
+INFO 2020-03-25 04:33:01,247 basehttp 124 "GET /static/html/newhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:33:01,324 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:33:10,203 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:10,292 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 04:33:10,347 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 04:33:10,363 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16196
+INFO 2020-03-25 04:33:12,058 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:12,119 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:33:13,681 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:13,745 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 04:33:13,834 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 04:33:13,849 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16196
+INFO 2020-03-25 04:33:16,056 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:16,154 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:33:18,038 basehttp 124 "GET /static/html/my.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:33:18,109 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:33:19,681 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:19,864 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 04:33:19,911 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 04:33:19,925 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16196
+INFO 2020-03-25 04:33:21,241 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:21,383 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:33:21,539 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:21,608 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:33:21,616 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 88
+INFO 2020-03-25 04:33:21,619 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:33:22,849 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:22,924 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:33:24,009 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:24,091 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 04:33:24,179 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 04:33:24,194 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16196
+INFO 2020-03-25 04:33:38,253 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:38,465 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:33:38,473 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 88
+INFO 2020-03-25 04:33:38,478 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:33:39,734 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:39,797 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:33:40,752 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:40,833 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 04:33:40,915 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 04:33:40,930 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16196
+INFO 2020-03-25 04:33:43,924 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:44,042 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:33:45,972 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:46,036 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 04:33:47,169 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:33:47,227 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:34:23,513 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:23,596 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:34:23,605 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 88
+INFO 2020-03-25 04:34:23,610 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:34:28,759 basehttp 124 "GET /search.html?aid=9&aname=%E5%98%89%E5%AE%9A%E5%8C%BA&sd=&ed= HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:28,785 basehttp 124 "GET /static/html/search.html?aid=9&aname=%E5%98%89%E5%AE%9A%E5%8C%BA&sd=&ed= HTTP/1.1" 200 4107
+INFO 2020-03-25 04:34:28,915 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+ERROR 2020-03-25 04:34:28,973 exception 135 Internal Server Error: /api/v1.0/houses/search/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 27, in get
+    t_sd = datetime.datetime.strptime(sd,"%Y-%m-%d")
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR 2020-03-25 04:34:29,010 basehttp 124 "GET /api/v1.0/houses/search/?aid=9&sd=&ed=&sk=new&p=1 HTTP/1.1" 500 16620
+INFO 2020-03-25 04:34:30,906 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:30,968 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:34:30,975 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 88
+INFO 2020-03-25 04:34:30,984 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:34:33,886 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:33,950 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:34:35,249 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:35,310 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 04:34:35,376 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 04:34:35,391 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16196
+INFO 2020-03-25 04:34:41,948 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:42,004 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:34:43,391 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:43,543 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 04:34:44,532 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:44,598 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:34:45,219 basehttp 124 "GET /auth.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:45,280 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:34:46,173 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:46,228 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:34:47,091 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:47,113 basehttp 124 "GET /static/html/lorders.html HTTP/1.1" 200 6615
+INFO 2020-03-25 04:34:47,172 basehttp 124 "GET /static/js/ihome/lorders.js HTTP/1.1" 200 4010
+INFO 2020-03-25 04:34:47,218 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 54
+INFO 2020-03-25 04:34:48,041 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:48,099 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:34:49,261 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:34:49,327 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 04:34:49,381 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 04:34:49,397 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16196
+INFO 2020-03-25 04:35:21,351 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:35:21,444 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:35:23,584 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:35:23,659 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:35:23,729 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 04:35:27,066 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:35:27,163 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:35:49,112 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+INFO 2020-03-25 04:35:53,598 basehttp 124 "POST /api/v1.0/houses/2/images/ HTTP/1.1" 200 128
+INFO 2020-03-25 04:36:10,845 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:36:11,095 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:36:11,153 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:36:13,911 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:36:14,134 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:36:16,070 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:36:16,171 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:36:16,295 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:36:17,615 basehttp 124 "GET /detail.html?id=2 HTTP/1.1" 302 0
+INFO 2020-03-25 04:36:17,664 basehttp 124 "GET /static/html/detail.html?id=2 HTTP/1.1" 200 8198
+INFO 2020-03-25 04:36:17,713 basehttp 124 "GET /static/css/ihome/detail.css HTTP/1.1" 200 4979
+INFO 2020-03-25 04:36:17,722 basehttp 124 "GET /static/js/ihome/detail.js HTTP/1.1" 200 1718
+INFO 2020-03-25 04:36:17,776 basehttp 124 "GET /api/v1.0/houses/2/ HTTP/1.1" 200 449
+INFO 2020-03-25 04:36:17,856 basehttp 124 "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 5018
+INFO 2020-03-25 04:39:09,363 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:39:21,267 basehttp 124 "GET /detail.html?id=2 HTTP/1.1" 302 0
+INFO 2020-03-25 04:39:21,385 basehttp 124 "GET /api/v1.0/houses/2/ HTTP/1.1" 200 449
+INFO 2020-03-25 04:39:26,548 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:39:44,112 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:39:44,297 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:39:44,438 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:40:28,315 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:40:28,331 basehttp 124 "GET /static/html/index.html HTTP/1.1" 200 6577
+INFO 2020-03-25 04:40:29,321 basehttp 124 "GET /static/images/logo@128x59.png HTTP/1.1" 200 6068
+INFO 2020-03-25 04:50:01,247 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:50:01,450 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:50:01,461 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 165
+INFO 2020-03-25 04:50:01,465 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:50:05,166 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:50:05,237 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:50:08,143 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:50:08,320 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:50:08,360 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:50:14,460 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:50:14,641 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:50:14,719 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:52:21,294 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:52:21,361 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:52:24,278 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 04:52:24,314 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:52:24,380 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 04:52:24,390 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 165
+INFO 2020-03-25 04:52:24,394 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:52:26,412 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:52:26,478 basehttp 124 "GET /api/v1.0/imagecode?cur=1b39c2b2-e62f-4214-b84b-59bd416465c4&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 04:52:26,525 basehttp 124 "GET /api/v1.0/imagecode/?cur=1b39c2b2-e62f-4214-b84b-59bd416465c4&pre= HTTP/1.1" 200 3022
+INFO 2020-03-25 04:52:33,236 basehttp 124 "GET /static/html/register.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:52:33,366 basehttp 124 "GET /api/v1.0/imagecode?cur=aa2fcc21-2737-4985-bef1-ff423231aedb&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 04:52:33,456 basehttp 124 "GET /api/v1.0/imagecode/?cur=aa2fcc21-2737-4985-bef1-ff423231aedb&pre= HTTP/1.1" 200 3376
+INFO 2020-03-25 04:52:33,491 basehttp 124 "GET /api/v1.0/imagecode/?cur=aa2fcc21-2737-4985-bef1-ff423231aedb&pre= HTTP/1.1" 200 3068
+INFO 2020-03-25 04:55:45,812 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 04:55:45,999 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 04:55:46,015 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 165
+INFO 2020-03-25 04:55:46,029 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:55:47,394 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:55:47,588 basehttp 124 "GET /static/html/login.html HTTP/1.1" 200 2123
+INFO 2020-03-25 04:55:47,639 basehttp 124 "GET /static/css/ihome/login.css HTTP/1.1" 200 966
+INFO 2020-03-25 04:55:47,642 basehttp 124 "GET /static/js/ihome/login.js HTTP/1.1" 200 1498
+INFO 2020-03-25 04:55:53,801 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 04:55:53,831 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:55:53,893 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 04:55:53,906 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 165
+INFO 2020-03-25 04:55:53,909 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 04:55:56,061 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:55:56,135 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 04:55:58,152 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 04:55:58,232 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:55:58,312 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:56:08,113 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:56:08,232 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:56:08,321 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 04:56:56,312 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 04:56:56,423 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 04:56:56,472 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 05:01:44,149 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 05:01:47,712 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 165
+INFO 2020-03-25 05:01:47,714 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:01:47,722 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:01:48,824 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:01:48,929 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:01:51,748 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:01:51,825 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 54
+INFO 2020-03-25 05:01:54,093 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:01:54,160 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:01:54,469 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 05:01:54,533 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:01:54,541 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 165
+INFO 2020-03-25 05:01:54,545 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:01:55,710 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:01:55,820 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:01:56,890 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:01:56,964 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 05:01:57,013 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 05:02:11,465 basehttp 124 "GET /detail.html?id=2 HTTP/1.1" 302 0
+INFO 2020-03-25 05:02:11,566 basehttp 124 "GET /api/v1.0/houses/2/ HTTP/1.1" 200 449
+INFO 2020-03-25 05:02:15,773 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 315
+INFO 2020-03-25 05:05:42,690 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 05:05:42,760 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 05:05:42,815 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 05:05:44,111 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:05:44,202 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:06:09,759 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+INFO 2020-03-25 05:08:02,782 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:02,914 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 05:08:02,958 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 05:08:02,976 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16209
+INFO 2020-03-25 05:08:06,668 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 05:08:06,728 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 05:08:06,766 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 05:08:06,782 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16209
+INFO 2020-03-25 05:08:07,699 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:07,759 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:08:09,691 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:09,764 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:08:09,778 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:08:09,783 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 88
+INFO 2020-03-25 05:08:11,156 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:11,240 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:08:13,604 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 05:08:13,634 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:13,706 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 05:08:13,722 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 88
+INFO 2020-03-25 05:08:13,724 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:08:14,748 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:14,803 basehttp 124 "GET /api/v1.0/imagecode?cur=be9e19ae-08cf-437d-b4d9-31728bece84c&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 05:08:14,838 basehttp 124 "GET /api/v1.0/imagecode/?cur=be9e19ae-08cf-437d-b4d9-31728bece84c&pre= HTTP/1.1" 200 2648
+INFO 2020-03-25 05:08:17,115 basehttp 124 "GET /static/html/register.html HTTP/1.1" 304 0
+INFO 2020-03-25 05:08:17,163 basehttp 124 "GET /api/v1.0/imagecode?cur=4f41c946-30e1-4236-ad8b-ce309a6dfcdb&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 05:08:17,204 basehttp 124 "GET /api/v1.0/imagecode/?cur=4f41c946-30e1-4236-ad8b-ce309a6dfcdb&pre= HTTP/1.1" 200 3266
+INFO 2020-03-25 05:08:17,881 basehttp 124 "GET /static/html/register.html HTTP/1.1" 304 0
+INFO 2020-03-25 05:08:17,933 basehttp 124 "GET /api/v1.0/imagecode?cur=effe672f-0a2b-4aa7-9dfc-2c473960b301&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 05:08:17,967 basehttp 124 "GET /api/v1.0/imagecode/?cur=effe672f-0a2b-4aa7-9dfc-2c473960b301&pre= HTTP/1.1" 200 3236
+INFO 2020-03-25 05:08:22,663 basehttp 124 code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+WARNING 2020-03-25 05:08:22,664 basehttp 124 " " 400 -
+INFO 2020-03-25 05:08:26,791 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:38,333 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 05:08:38,363 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:38,435 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:08:38,448 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 88
+INFO 2020-03-25 05:08:38,452 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:08:44,427 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:44,494 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:08:46,425 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:08:46,494 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 05:08:46,534 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 05:08:46,550 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16209
+INFO 2020-03-25 05:15:32,516 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 05:15:32,535 basehttp 124 "GET /static/html/index.html HTTP/1.1" 304 0
+INFO 2020-03-25 05:15:32,710 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 40
+INFO 2020-03-25 05:15:32,713 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:15:32,729 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:15:33,662 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:15:33,796 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:15:35,046 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:15:35,176 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 05:15:35,254 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 05:15:36,477 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:15:36,564 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:15:54,521 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+ERROR 2020-03-25 05:19:06,374 exception 135 Internal Server Error: /api/v1.0/houses/4/images/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 230, in post
+    file_id = FastDFSStorage.save(self, name='', content=house_image)
+  File "/root/ihome/ihome/ihome/utils/fastdfs/fastdfs_storage.py", line 20, in save
+    result = client.upload_by_buffer(content.read())
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/fdfs_client/client.py", line 125, in upload_by_buffer
+    store_serv = tc.tracker_query_storage_stor_without_group()
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/fdfs_client/tracker_client.py", line 381, in tracker_query_storage_stor_without_group
+    raise DataError('[-] Error: %d, %s' % (th.status, os.strerror(th.status)))
+fdfs_client.exceptions.DataError: [-] Error: 2, No such file or directory
+ERROR 2020-03-25 05:19:06,431 basehttp 124 "POST /api/v1.0/houses/4/images/ HTTP/1.1" 500 17159
+INFO 2020-03-25 05:19:11,360 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:19:11,486 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+ERROR 2020-03-25 05:19:11,547 exception 135 Internal Server Error: /api/v1.0/user/houses/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 263, in get
+    img_url = image_list[0].url
+IndexError: list index out of range
+ERROR 2020-03-25 05:19:11,561 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 500 16208
+INFO 2020-03-25 05:19:31,414 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 05:19:31,520 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 05:19:31,576 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 05:19:34,923 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:19:34,997 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:19:52,220 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+INFO 2020-03-25 05:21:00,220 basehttp 124 "POST /api/v1.0/houses/5/images/ HTTP/1.1" 200 128
+INFO 2020-03-25 05:21:08,732 basehttp 124 "POST /api/v1.0/houses/5/images/ HTTP/1.1" 200 128
+INFO 2020-03-25 05:21:12,603 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:21:12,670 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 05:21:12,761 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 310
+INFO 2020-03-25 05:21:15,205 basehttp 124 "GET /detail.html?id=5 HTTP/1.1" 302 0
+INFO 2020-03-25 05:21:15,223 basehttp 124 "GET /static/html/detail.html?id=5 HTTP/1.1" 200 8198
+INFO 2020-03-25 05:21:15,311 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 520
+WARNING 2020-03-25 05:21:19,062 base 152 Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+WARNING 2020-03-25 05:21:19,062 basehttp 124 "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1727
+INFO 2020-03-25 05:47:12,507 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 310
+INFO 2020-03-25 05:47:13,931 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:14,007 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:47:19,782 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:19,848 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 05:47:20,827 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:20,892 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:47:22,804 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:22,880 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:47:22,887 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 05:47:22,892 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:47:24,566 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:24,636 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 05:47:32,842 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:32,933 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:47:32,945 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 05:47:32,998 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:47:41,182 basehttp 124 "GET /search.html?aid=1&aname=%E9%BB%84%E6%B5%A6%E5%8C%BA&sd=&ed= HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:41,199 basehttp 124 "GET /static/html/search.html?aid=1&aname=%E9%BB%84%E6%B5%A6%E5%8C%BA&sd=&ed= HTTP/1.1" 200 4107
+INFO 2020-03-25 05:47:41,303 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+ERROR 2020-03-25 05:47:41,353 exception 135 Internal Server Error: /api/v1.0/houses/search/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/bs/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/ihome/ihome/ihome/apps/house/views.py", line 27, in get
+    t_sd = datetime.datetime.strptime(sd,"%Y-%m-%d")
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR 2020-03-25 05:47:41,376 basehttp 124 "GET /api/v1.0/houses/search/?aid=1&sd=&ed=&sk=new&p=1 HTTP/1.1" 500 16614
+INFO 2020-03-25 05:47:44,817 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:44,894 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 05:47:44,901 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 05:47:44,911 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:47:56,393 basehttp 124 "GET /search.html?aid=1&aname=%E9%BB%84%E6%B5%A6%E5%8C%BA&sd=2020-03-25&ed=2020-03-26 HTTP/1.1" 302 0
+INFO 2020-03-25 05:47:56,408 basehttp 124 "GET /static/html/search.html?aid=1&aname=%E9%BB%84%E6%B5%A6%E5%8C%BA&sd=2020-03-25&ed=2020-03-26 HTTP/1.1" 200 4107
+INFO 2020-03-25 05:47:56,554 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 05:47:56,639 basehttp 124 "GET /api/v1.0/houses/search/?aid=1&sd=2020-03-25&ed=2020-03-26&sk=new&p=1 HTTP/1.1" 200 373
+INFO 2020-03-25 05:48:03,623 basehttp 124 "GET /detail.html?id=5 HTTP/1.1" 302 0
+INFO 2020-03-25 05:48:03,698 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 520
+INFO 2020-03-25 06:21:14,590 basehttp 124 "GET /api/v1.0/houses/search/?aid=1&sd=2020-03-25&ed=2020-03-26&sk=new&p=1 HTTP/1.1" 200 373
+INFO 2020-03-25 06:21:16,115 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 06:21:16,195 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:21:16,220 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:21:16,229 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:21:17,480 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:21:17,581 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:21:18,959 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 06:21:18,994 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:21:19,048 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 06:21:19,069 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:21:19,073 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:21:20,236 basehttp 124 "GET /register.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:21:20,303 basehttp 124 "GET /api/v1.0/imagecode?cur=2632ee87-6a36-4834-a7d3-d2d307299029&pre= HTTP/1.1" 301 0
+INFO 2020-03-25 06:21:20,338 basehttp 124 "GET /api/v1.0/imagecode/?cur=2632ee87-6a36-4834-a7d3-d2d307299029&pre= HTTP/1.1" 200 3048
+INFO 2020-03-25 06:21:35,056 basehttp 124 "GET /api/v1.0/imagecode?cur=511509a2-cba7-47a6-8439-ae8c4d406889&pre=2632ee87-6a36-4834-a7d3-d2d307299029 HTTP/1.1" 301 0
+INFO 2020-03-25 06:21:35,095 basehttp 124 "GET /api/v1.0/imagecode/?cur=511509a2-cba7-47a6-8439-ae8c4d406889&pre=2632ee87-6a36-4834-a7d3-d2d307299029 HTTP/1.1" 200 3348
+INFO 2020-03-25 06:21:43,752 views 158 946293
+INFO 2020-03-25 06:21:43,753 basehttp 124 "POST /api/v1.0/smscode/ HTTP/1.1" 200 63
+INFO 2020-03-25 06:21:45,020 basehttp 124 "GET /api/v1.0/imagecode?cur=e90d134c-383f-4700-be84-8cb10961f0b4&pre=511509a2-cba7-47a6-8439-ae8c4d406889 HTTP/1.1" 301 0
+INFO 2020-03-25 06:21:45,053 basehttp 124 "GET /api/v1.0/imagecode/?cur=e90d134c-383f-4700-be84-8cb10961f0b4&pre=511509a2-cba7-47a6-8439-ae8c4d406889 HTTP/1.1" 200 3090
+INFO 2020-03-25 06:22:01,720 basehttp 124 "POST /api/v1.0/user/register/ HTTP/1.1" 200 52
+INFO 2020-03-25 06:22:01,758 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:01,841 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:22:01,853 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:22:01,857 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:22:05,520 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:05,585 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:22:09,793 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:09,849 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:22:09,858 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:22:09,863 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:22:10,714 basehttp 124 "GET /detail.html?id=5 HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:10,797 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 520
+INFO 2020-03-25 06:22:13,976 basehttp 124 "GET /booking.html?hid=5 HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:14,009 basehttp 124 "GET /static/html/booking.html?hid=5 HTTP/1.1" 200 2455
+INFO 2020-03-25 06:22:14,071 basehttp 124 "GET /static/js/ihome/booking.js HTTP/1.1" 200 3242
+INFO 2020-03-25 06:22:14,080 basehttp 124 "GET /static/css/ihome/booking.css HTTP/1.1" 200 1852
+INFO 2020-03-25 06:22:14,140 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:22:14,152 basehttp 124 "GET /api/v1.0/houses/5 HTTP/1.1" 301 0
+INFO 2020-03-25 06:22:14,199 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 520
+INFO 2020-03-25 06:22:14,220 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 311296
+WARNING 2020-03-25 06:22:27,899 basehttp 124 "POST /api/v1.0/orders/ HTTP/1.1" 403 12
+INFO 2020-03-25 06:22:29,657 basehttp 124 "POST /api/v1.0/orders/ HTTP/1.1" 200 54
+INFO 2020-03-25 06:22:36,243 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:36,304 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:22:40,168 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:40,234 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 654
+INFO 2020-03-25 06:22:45,211 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:45,291 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:22:46,367 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:46,433 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 54
+INFO 2020-03-25 06:22:48,183 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:48,245 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:22:49,705 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:49,818 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 79
+INFO 2020-03-25 06:22:51,042 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:51,099 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:22:54,229 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 06:22:54,266 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:22:54,332 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 06:22:54,350 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:22:54,354 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:22:55,485 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:04,463 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 06:23:04,498 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:04,578 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:23:04,590 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:23:04,594 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:23:06,758 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:06,838 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:23:08,058 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:08,127 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 654
+INFO 2020-03-25 06:23:12,614 basehttp 124 "PUT /api/v1.0/orders/ HTTP/1.1" 200 345
+INFO 2020-03-25 06:23:16,665 basehttp 124 "PUT /api/v1.0/orders/ HTTP/1.1" 200 345
+INFO 2020-03-25 06:23:18,564 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:18,628 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:23:20,308 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:20,399 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 06:23:21,671 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:21,768 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:23:22,807 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:22,870 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 06:23:23,771 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:23,829 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:23:24,548 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:24,609 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 656
+INFO 2020-03-25 06:23:28,502 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:28,586 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:23:29,947 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:30,017 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:23:30,024 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:23:30,029 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:23:30,951 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:31,053 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:23:32,629 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 06:23:32,660 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:32,715 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 06:23:32,731 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:23:32,738 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:23:33,574 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:48,468 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 06:23:48,501 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:48,579 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:23:48,591 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:23:48,596 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:23:49,988 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:50,052 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:23:52,675 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:23:52,790 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 656
+INFO 2020-03-25 06:23:59,778 basehttp 124 "PUT /api/v1.0/orders/comment/ HTTP/1.1" 200 28
+INFO 2020-03-25 06:24:02,278 basehttp 124 "PUT /api/v1.0/orders/comment/ HTTP/1.1" 200 28
+INFO 2020-03-25 06:24:04,738 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:04,805 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:24:05,876 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:05,942 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:24:05,951 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:24:05,956 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:24:07,359 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:07,551 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:24:08,387 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 06:24:08,417 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:08,475 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 06:24:08,497 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:24:08,499 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:24:10,130 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:15,613 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 06:24:15,646 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:15,731 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:24:15,739 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 163
+INFO 2020-03-25 06:24:15,743 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:24:17,427 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:17,629 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:24:18,553 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:18,616 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 06:24:19,558 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:19,626 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:24:20,360 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:20,634 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 654
+INFO 2020-03-25 06:24:28,032 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:28,101 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:24:30,794 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:24:30,867 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 06:24:30,906 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 311
+INFO 2020-03-25 06:25:39,952 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:25:40,036 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:26:08,026 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+INFO 2020-03-25 06:28:10,946 basehttp 124 "POST /api/v1.0/houses/6/images/ HTTP/1.1" 200 128
+INFO 2020-03-25 06:28:22,584 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:28:22,734 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 06:28:23,053 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 583
+INFO 2020-03-25 06:28:32,114 basehttp 124 "GET /detail.html?id=6 HTTP/1.1" 302 0
+INFO 2020-03-25 06:28:32,132 basehttp 124 "GET /static/html/detail.html?id=6 HTTP/1.1" 200 8198
+INFO 2020-03-25 06:28:32,428 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 06:28:43,447 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 583
+INFO 2020-03-25 06:28:44,418 basehttp 124 "GET /detail.html?id=5 HTTP/1.1" 302 0
+INFO 2020-03-25 06:28:44,698 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+INFO 2020-03-25 06:28:55,708 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 583
+INFO 2020-03-25 06:32:38,368 basehttp 124 "GET /detail.html?id=6 HTTP/1.1" 302 0
+INFO 2020-03-25 06:32:38,690 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 06:33:11,042 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 583
+INFO 2020-03-25 06:33:13,629 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:33:13,702 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:34:00,337 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+INFO 2020-03-25 06:34:04,848 basehttp 124 "POST /api/v1.0/houses/7/images/ HTTP/1.1" 200 128
+INFO 2020-03-25 06:34:06,175 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:34:06,467 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 06:34:06,616 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 865
+INFO 2020-03-25 06:35:53,272 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:35:53,613 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:35:56,038 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:35:56,149 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 06:35:56,318 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 865
+INFO 2020-03-25 06:38:24,358 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 200 3388
+INFO 2020-03-25 06:38:24,751 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 06:38:25,050 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 865
+INFO 2020-03-25 06:38:31,224 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:31,400 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:38:32,992 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 06:38:33,023 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:33,092 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 06:38:33,105 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:38:33,110 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 06:38:33,996 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:40,026 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 06:38:40,061 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:40,127 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:38:40,137 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 06:38:40,142 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:38:41,970 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:42,096 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:38:45,234 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:45,303 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 654
+INFO 2020-03-25 06:38:47,682 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:47,853 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:38:48,793 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:48,855 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:38:48,868 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 06:38:48,872 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:38:50,100 basehttp 124 "GET /detail.html?id=6 HTTP/1.1" 302 0
+INFO 2020-03-25 06:38:50,184 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 06:39:03,151 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 06:39:03,168 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 200 8198
+INFO 2020-03-25 06:39:03,275 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:39:12,120 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 06:39:12,143 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 200 2455
+INFO 2020-03-25 06:39:12,222 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:39:12,242 basehttp 124 "GET /api/v1.0/houses/7 HTTP/1.1" 301 0
+INFO 2020-03-25 06:39:12,291 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:39:12,315 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 303104
+INFO 2020-03-25 06:42:08,098 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:42:08,247 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:42:08,295 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:42:08,365 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 311296
+INFO 2020-03-25 06:42:37,927 basehttp 124 "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1" 200 147456
+INFO 2020-03-25 06:52:56,956 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:52:57,027 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:52:57,080 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:52:57,138 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 311296
+INFO 2020-03-25 06:52:57,960 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:52:58,035 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:52:58,073 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:52:58,092 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 245760
+INFO 2020-03-25 06:52:58,560 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:52:58,632 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:52:58,669 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:52:58,700 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 221184
+INFO 2020-03-25 06:52:59,110 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:52:59,196 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:52:59,245 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:52:59,499 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 229376
+INFO 2020-03-25 06:53:00,034 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:53:00,106 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:53:00,147 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:53:00,179 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 221184
+INFO 2020-03-25 06:53:00,814 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:53:00,885 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:53:00,924 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 06:53:00,954 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 229376
+INFO 2020-03-25 06:53:13,067 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:13,255 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:53:14,026 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:14,098 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 654
+INFO 2020-03-25 06:53:16,517 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:16,801 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:53:18,271 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:18,341 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 54
+INFO 2020-03-25 06:53:19,759 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:19,959 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:53:21,434 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:21,536 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 654
+INFO 2020-03-25 06:53:24,213 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:24,488 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:53:28,076 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 06:53:28,107 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:28,169 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 06:53:28,187 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 06:53:28,191 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:53:29,016 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:37,344 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 06:53:37,376 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:37,459 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 06:53:37,468 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 06:53:37,473 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 06:53:38,776 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:38,939 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:53:40,154 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:40,220 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 54
+INFO 2020-03-25 06:53:41,814 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:41,977 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:53:43,087 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:43,229 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 654
+INFO 2020-03-25 06:53:44,921 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:45,198 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 06:53:45,803 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:45,820 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 06:53:46,138 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 06:53:46,240 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 865
+INFO 2020-03-25 06:53:54,983 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 06:53:55,260 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+WARNING 2020-03-25 06:54:00,121 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 06:57:50,386 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:57:50,553 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+WARNING 2020-03-25 06:57:50,561 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 06:58:19,908 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:58:20,066 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+WARNING 2020-03-25 06:58:20,070 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 06:59:04,696 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 06:59:04,854 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+WARNING 2020-03-25 06:59:04,860 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:02:01,141 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 200 8197
+INFO 2020-03-25 07:02:01,267 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+WARNING 2020-03-25 07:02:01,324 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:02:13,639 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 865
+INFO 2020-03-25 07:02:16,255 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:16,271 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:02:16,603 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 07:02:19,469 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 865
+INFO 2020-03-25 07:02:20,714 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:20,995 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:02:23,151 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:23,229 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:02:23,236 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:02:23,246 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:02:24,009 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:24,215 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:02:25,802 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:25,862 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:02:25,873 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:02:25,877 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:02:29,863 basehttp 124 "GET /detail.html?id=5 HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:29,991 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+INFO 2020-03-25 07:02:35,118 basehttp 124 "GET /detail.html?id=6 HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:35,301 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 07:02:42,254 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:42,271 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:02:42,602 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 07:02:48,217 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:48,289 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:02:50,575 basehttp 124 "DELETE /api/v1.0/logout/ HTTP/1.1" 200 58
+INFO 2020-03-25 07:02:50,602 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:50,662 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 07:02:50,677 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:02:50,681 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:02:51,624 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:57,617 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 07:02:57,657 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:57,741 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:02:57,752 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:02:57,756 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:02:59,448 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:02:59,463 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:02:59,608 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 07:03:04,988 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:03:05,283 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 07:03:08,033 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:03:08,121 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:03:08,170 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 451
+INFO 2020-03-25 07:03:08,191 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 237568
+INFO 2020-03-25 07:04:05,723 basehttp 124 "POST /api/v1.0/orders/ HTTP/1.1" 200 54
+INFO 2020-03-25 07:04:10,415 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:04:10,497 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:04:13,361 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:04:13,435 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 966
+INFO 2020-03-25 07:04:33,354 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:04:33,432 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:04:35,558 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:04:35,629 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:04:35,641 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:04:35,645 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:04:38,670 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:04:38,853 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:04:38,941 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:04:45,214 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:04:45,290 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:04:45,333 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:04:45,355 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 237568
+INFO 2020-03-25 07:07:52,975 basehttp 124 "GET /static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf HTTP/1.1" 200 45404
+INFO 2020-03-25 07:07:54,708 basehttp 124 "GET /static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23424
+INFO 2020-03-25 07:08:14,399 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:08:14,520 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:08:14,592 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:08:14,688 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 319488
+INFO 2020-03-25 07:08:14,689 basehttp 124 "GET /static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23424
+INFO 2020-03-25 07:08:14,701 basehttp 124 "GET /static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf HTTP/1.1" 200 45404
+WARNING 2020-03-25 07:08:45,004 base 152 Not Found: /http:/123.125.114.144/
+WARNING 2020-03-25 07:08:45,005 basehttp 124 "HEAD http://123.125.114.144/ HTTP/1.1" 404 1667
+INFO 2020-03-25 07:08:48,150 basehttp 124 code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+WARNING 2020-03-25 07:08:48,150 basehttp 124 " " 400 -
+INFO 2020-03-25 07:12:00,193 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:00,316 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:00,393 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:00,468 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 245760
+INFO 2020-03-25 07:12:01,144 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:01,287 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:01,334 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:01,356 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 237568
+INFO 2020-03-25 07:12:01,842 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:01,947 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:02,020 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:02,283 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 237568
+INFO 2020-03-25 07:12:02,360 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:02,483 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:02,542 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:02,795 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 204800
+INFO 2020-03-25 07:12:02,920 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:03,009 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:03,086 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:03,111 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 147456
+INFO 2020-03-25 07:12:03,272 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:03,360 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:03,464 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:03,486 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 147456
+INFO 2020-03-25 07:12:04,265 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:04,394 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:04,441 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:04,467 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 245760
+INFO 2020-03-25 07:12:14,542 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:14,657 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:14,721 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:14,950 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 311296
+INFO 2020-03-25 07:12:38,539 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:12:38,748 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:38,754 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:12:38,761 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:12:41,778 basehttp 124 "GET /detail.html?id=6 HTTP/1.1" 302 0
+INFO 2020-03-25 07:12:41,854 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 07:12:46,288 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:12:46,305 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:12:46,650 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:48,412 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:12:48,507 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:12:48,542 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:12:48,567 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 237568
+INFO 2020-03-25 07:13:00,730 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:13:00,836 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:13:00,906 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:13:00,933 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 237568
+INFO 2020-03-25 07:14:54,780 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:14:54,890 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:14:54,957 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:14:54,975 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 245760
+INFO 2020-03-25 07:14:55,566 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:14:55,650 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:14:55,729 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:14:55,918 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 245760
+INFO 2020-03-25 07:14:56,130 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:14:56,246 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:14:56,286 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:14:56,527 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 204800
+INFO 2020-03-25 07:17:13,624 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:17:13,829 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:17:13,837 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:17:13,841 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:17:19,150 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:17:19,173 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:17:19,358 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:17:22,169 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:17:22,276 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:17:22,289 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:17:22,319 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 229376
+INFO 2020-03-25 07:17:49,015 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:17:49,132 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:17:49,208 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:17:49,234 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 311296
+INFO 2020-03-25 07:18:09,814 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:18:09,927 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:18:09,990 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:18:10,020 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 245760
+INFO 2020-03-25 07:18:10,483 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:18:10,579 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:18:10,637 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:18:10,659 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 180224
+INFO 2020-03-25 07:18:11,114 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:18:11,221 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:18:11,272 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:18:11,297 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 237568
+INFO 2020-03-25 07:18:11,835 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:18:11,930 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:18:12,017 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:18:12,046 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 229376
+INFO 2020-03-25 07:18:13,896 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:18:13,979 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:18:14,071 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:18:14,320 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 303104
+INFO 2020-03-25 07:23:23,310 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:23:23,456 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:23:23,464 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:23:23,475 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+WARNING 2020-03-25 07:23:23,652 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:23:25,104 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:23:25,310 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:24:38,030 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:24:38,161 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:24:38,170 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:24:38,175 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+WARNING 2020-03-25 07:24:38,212 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:24:39,000 basehttp 124 "GET /detail.html?id=5 HTTP/1.1" 302 0
+WARNING 2020-03-25 07:24:39,076 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:24:39,151 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+WARNING 2020-03-25 07:24:41,467 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:24:45,158 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:24:45,213 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:24:45,335 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+WARNING 2020-03-25 07:24:45,353 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:24:48,505 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:24:48,628 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:24:48,683 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:24:48,755 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 319488
+INFO 2020-03-25 07:24:52,274 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 200 2455
+INFO 2020-03-25 07:24:52,373 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:24:52,433 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:24:52,435 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:24:53,534 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 428189
+INFO 2020-03-25 07:32:47,703 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:32:47,870 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:32:47,905 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+WARNING 2020-03-25 07:33:06,916 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+WARNING 2020-03-25 07:33:20,202 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:33:21,170 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:33:21,279 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:33:22,336 basehttp 124 "GET /orders.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:33:22,468 basehttp 124 "GET /api/v1.0/orders/?role=custom HTTP/1.1" 200 966
+INFO 2020-03-25 07:33:25,636 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:33:25,736 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:33:27,471 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:33:27,485 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:33:27,595 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 79
+INFO 2020-03-25 07:33:28,605 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:33:28,900 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:33:32,089 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:33:32,203 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:33:32,212 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:33:32,217 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+WARNING 2020-03-25 07:33:32,422 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:33:35,459 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:33:35,477 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:33:35,598 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+WARNING 2020-03-25 07:33:35,601 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+WARNING 2020-03-25 07:34:50,339 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:34:51,605 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:34:51,710 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+WARNING 2020-03-25 07:34:51,741 basehttp 124 "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 1758
+INFO 2020-03-25 07:34:52,827 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:34:52,973 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:34:53,013 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:36:52,608 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 304 0
+INFO 2020-03-25 07:36:52,697 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:36:52,788 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+WARNING 2020-03-25 07:37:53,328 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:37:53,331 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:37:53,331 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:38:06,575 basehttp 124 "POST /api/v1.0/orders/ HTTP/1.1" 403 18
+INFO 2020-03-25 07:38:18,171 basehttp 124 "GET /static/html/booking.html?hid=6 HTTP/1.1" 200 2455
+INFO 2020-03-25 07:38:18,281 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:38:18,321 basehttp 124 "GET /api/v1.0/houses/6 HTTP/1.1" 301 0
+INFO 2020-03-25 07:38:18,401 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 07:38:21,827 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:38:21,947 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+INFO 2020-03-25 07:44:57,504 basehttp 124 "GET /static/html/booking.html?hid=5 HTTP/1.1" 304 0
+INFO 2020-03-25 07:44:57,581 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:44:57,700 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+INFO 2020-03-25 07:45:01,599 basehttp 124 "GET /static/html/booking.html?hid=5 HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:01,723 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:45:01,780 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+INFO 2020-03-25 07:45:03,285 basehttp 124 "GET /static/html/booking.html?hid=5 HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:03,394 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:45:03,439 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+INFO 2020-03-25 07:45:41,601 basehttp 124 "GET /static/html/booking.html?hid=5 HTTP/1.1" 200 2458
+INFO 2020-03-25 07:45:41,758 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:45:41,800 basehttp 124 "GET /api/v1.0/houses/5/ HTTP/1.1" 200 689
+WARNING 2020-03-25 07:45:45,273 base 152 Not Found: /api/v1.0/houses/undefined
+INFO 2020-03-25 07:45:45,276 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:45,276 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:56,210 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 200 2458
+INFO 2020-03-25 07:45:56,381 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:56,394 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:56,395 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:57,265 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:57,362 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:57,406 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:57,406 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:57,914 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:58,013 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:58,065 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:58,066 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:58,353 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:58,449 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:58,508 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:58,508 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:58,635 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:58,771 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:58,780 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:58,781 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:58,852 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:58,922 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:59,014 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:59,015 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:59,085 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:59,177 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:59,248 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:59,248 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:45:59,354 basehttp 124 "GET /static/html/booking.html HTTP/1.1" 304 0
+INFO 2020-03-25 07:45:59,452 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+WARNING 2020-03-25 07:45:59,550 base 152 Not Found: /api/v1.0/houses/undefined
+WARNING 2020-03-25 07:45:59,551 basehttp 124 "GET /api/v1.0/houses/undefined HTTP/1.1" 404 5383
+INFO 2020-03-25 07:46:26,737 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 07:46:26,756 basehttp 124 "GET /static/html/index.html HTTP/1.1" 200 6577
+INFO 2020-03-25 07:46:26,804 basehttp 124 "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2020-03-25 07:46:26,805 basehttp 124 "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 29062
+INFO 2020-03-25 07:46:26,807 basehttp 124 "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 15779
+INFO 2020-03-25 07:46:26,808 basehttp 124 "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 200 17216
+INFO 2020-03-25 07:46:26,809 basehttp 124 "GET /static/css/ihome/main.css HTTP/1.1" 200 224
+INFO 2020-03-25 07:46:26,810 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 435
+INFO 2020-03-25 07:46:26,844 basehttp 124 "GET /static/css/ihome/index.css HTTP/1.1" 200 1909
+INFO 2020-03-25 07:46:26,846 basehttp 124 "GET /static/js/jquery.min.js HTTP/1.1" 200 95930
+INFO 2020-03-25 07:46:26,864 basehttp 124 "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-03-25 07:46:26,866 basehttp 124 "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 200 68716
+INFO 2020-03-25 07:46:26,867 basehttp 124 "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 32644
+INFO 2020-03-25 07:46:26,873 basehttp 124 "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 593
+INFO 2020-03-25 07:46:26,908 basehttp 124 "GET /static/js/template.js HTTP/1.1" 200 5324
+INFO 2020-03-25 07:46:27,564 basehttp 124 "GET /static/js/ihome/index.js HTTP/1.1" 200 4597
+INFO 2020-03-25 07:46:27,660 basehttp 124 "GET /static/images/logo@128x59.png HTTP/1.1" 200 6068
+INFO 2020-03-25 07:46:28,432 basehttp 124 "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+INFO 2020-03-25 07:46:30,501 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 67
+INFO 2020-03-25 07:46:30,508 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:46:30,529 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:46:31,508 basehttp 124 "GET /login.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:46:31,521 basehttp 124 "GET /static/html/login.html HTTP/1.1" 200 2123
+INFO 2020-03-25 07:46:31,571 basehttp 124 "GET /static/css/ihome/login.css HTTP/1.1" 200 966
+INFO 2020-03-25 07:46:31,575 basehttp 124 "GET /static/js/ihome/login.js HTTP/1.1" 200 1498
+INFO 2020-03-25 07:46:38,512 basehttp 124 "POST /api/v1.0/login/ HTTP/1.1" 200 52
+INFO 2020-03-25 07:46:38,553 basehttp 124 "GET /index.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:46:38,620 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:46:38,630 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 422
+INFO 2020-03-25 07:46:38,635 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:46:40,495 basehttp 124 "GET /detail.html?id=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:46:40,529 basehttp 124 "GET /static/html/detail.html?id=7 HTTP/1.1" 200 8197
+INFO 2020-03-25 07:46:40,581 basehttp 124 "GET /static/css/ihome/detail.css HTTP/1.1" 200 4979
+INFO 2020-03-25 07:46:40,582 basehttp 124 "GET /static/js/ihome/detail.js HTTP/1.1" 200 1718
+INFO 2020-03-25 07:46:40,677 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:46:40,771 basehttp 124 "GET /static/images/houseicon_sprite.png HTTP/1.1" 200 5018
+INFO 2020-03-25 07:46:43,149 basehttp 124 "GET /booking.html?hid=7 HTTP/1.1" 302 0
+INFO 2020-03-25 07:46:43,163 basehttp 124 "GET /static/html/booking.html?hid=7 HTTP/1.1" 200 2458
+INFO 2020-03-25 07:46:43,223 basehttp 124 "GET /static/css/ihome/booking.css HTTP/1.1" 200 1852
+INFO 2020-03-25 07:46:43,225 basehttp 124 "GET /static/js/ihome/booking.js HTTP/1.1" 200 3240
+INFO 2020-03-25 07:46:43,285 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:46:43,299 basehttp 124 "GET /api/v1.0/houses/7 HTTP/1.1" 301 0
+INFO 2020-03-25 07:46:43,336 basehttp 124 "GET /api/v1.0/houses/7/ HTTP/1.1" 200 531
+INFO 2020-03-25 07:46:43,362 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 303104
+INFO 2020-03-25 07:46:57,324 basehttp 124 "GET /detail.html?id=6 HTTP/1.1" 302 0
+INFO 2020-03-25 07:46:57,338 basehttp 124 "GET /static/html/detail.html?id=6 HTTP/1.1" 200 8197
+INFO 2020-03-25 07:46:57,420 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 07:46:59,631 basehttp 124 "GET /booking.html?hid=6 HTTP/1.1" 302 0
+INFO 2020-03-25 07:46:59,648 basehttp 124 "GET /static/html/booking.html?hid=6 HTTP/1.1" 200 2458
+INFO 2020-03-25 07:46:59,719 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 07:46:59,744 basehttp 124 "GET /api/v1.0/houses/6 HTTP/1.1" 301 0
+INFO 2020-03-25 07:46:59,801 basehttp 124 "GET /api/v1.0/houses/6/ HTTP/1.1" 200 441
+INFO 2020-03-25 07:46:59,831 basehttp 124 "GET /static/images/home01.jpg HTTP/1.1" 200 245760
+INFO 2020-03-25 07:54:55,041 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:54:55,058 basehttp 124 "GET /static/html/my.html HTTP/1.1" 200 3276
+INFO 2020-03-25 07:54:55,104 basehttp 124 "GET /static/css/ihome/my.css HTTP/1.1" 200 1536
+INFO 2020-03-25 07:54:55,106 basehttp 124 "GET /static/js/ihome/my.js HTTP/1.1" 200 976
+INFO 2020-03-25 07:54:55,163 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:54:57,103 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:54:57,119 basehttp 124 "GET /static/html/myhouse.html HTTP/1.1" 200 3388
+INFO 2020-03-25 07:54:57,168 basehttp 124 "GET /static/js/ihome/myhouse.js HTTP/1.1" 200 799
+INFO 2020-03-25 07:54:57,169 basehttp 124 "GET /static/css/ihome/myhouse.css HTTP/1.1" 200 1551
+INFO 2020-03-25 07:54:57,244 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 79
+INFO 2020-03-25 07:54:58,403 basehttp 124 "GET /auth.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:54:58,466 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 79
+INFO 2020-03-25 07:55:01,871 basehttp 124 "POST /api/v1.0/user/auth/ HTTP/1.1" 200 30
+INFO 2020-03-25 07:55:04,610 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:55:04,676 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:55:06,100 basehttp 124 "GET /lorders.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:55:06,115 basehttp 124 "GET /static/html/lorders.html HTTP/1.1" 200 6615
+INFO 2020-03-25 07:55:06,163 basehttp 124 "GET /static/css/ihome/orders.css HTTP/1.1" 200 1600
+INFO 2020-03-25 07:55:06,164 basehttp 124 "GET /static/js/ihome/lorders.js HTTP/1.1" 200 4010
+INFO 2020-03-25 07:55:06,223 basehttp 124 "GET /api/v1.0/orders/?role=landlord HTTP/1.1" 200 54
+INFO 2020-03-25 07:55:07,286 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:55:07,338 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 07:55:08,469 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:55:08,548 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 07:55:08,585 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 42
+INFO 2020-03-25 07:55:10,535 basehttp 124 "GET /newhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:55:10,608 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741
+INFO 2020-03-25 07:55:55,507 basehttp 124 "POST /api/v1.0/houses/ HTTP/1.1" 200 55
+INFO 2020-03-25 07:56:01,643 basehttp 124 "POST /api/v1.0/houses/8/images/ HTTP/1.1" 200 128
+INFO 2020-03-25 07:56:03,391 basehttp 124 "GET /myhouse.html HTTP/1.1" 302 0
+INFO 2020-03-25 07:56:03,456 basehttp 124 "GET /api/v1.0/user/auth/ HTTP/1.1" 200 111
+INFO 2020-03-25 07:56:03,503 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 322
+INFO 2020-03-25 07:56:05,864 basehttp 124 "GET /detail.html?id=8 HTTP/1.1" 302 0
+INFO 2020-03-25 07:56:05,888 basehttp 124 "GET /static/html/detail.html?id=8 HTTP/1.1" 200 8197
+INFO 2020-03-25 07:56:06,046 basehttp 124 "GET /api/v1.0/houses/8/ HTTP/1.1" 200 476
+INFO 2020-03-25 08:01:34,804 basehttp 124 "GET /api/v1.0/user/houses/ HTTP/1.1" 200 322
+INFO 2020-03-25 08:01:38,170 basehttp 124 "GET /my.html HTTP/1.1" 302 0
+INFO 2020-03-25 08:01:38,230 basehttp 124 "GET /api/v1.0/user/profile/ HTTP/1.1" 200 108
+INFO 2020-03-25 08:01:45,286 basehttp 124 "GET / HTTP/1.1" 302 0
+INFO 2020-03-25 08:01:45,357 basehttp 124 "GET /api/v1.0/session/ HTTP/1.1" 200 75
+INFO 2020-03-25 08:01:45,368 basehttp 124 "GET /api/v1.0/houses/index/ HTTP/1.1" 200 558
+INFO 2020-03-25 08:01:45,372 basehttp 124 "GET /api/v1.0/areas/ HTTP/1.1" 200 741

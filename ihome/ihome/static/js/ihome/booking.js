@@ -66,7 +66,7 @@ $(document).ready(function(){
         if (resp.errno == "0") {
             $(".house-info>img").attr("src", resp.data.house.img_urls[0])
             $(".house-text>h3").html(resp.data.house.title)
-            $(".house-text>p>span").html((resp.data.house.price / 100).toFixed(0))
+            $(".house-text>p>span").html((resp.data.house.price / 1).toFixed(0))
         }
     })
 
